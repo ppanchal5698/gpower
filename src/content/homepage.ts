@@ -6,12 +6,12 @@ export const brand = {
 } as const
 
 export const navItems = [
-  { label: 'Home', href: '/#home', sectionId: 'home' },
-  { label: 'About', href: '/#about', sectionId: 'about' },
-  { label: 'Solutions', href: '/#solutions', sectionId: 'solutions' },
-  { label: 'Industries', href: '/#industries', sectionId: 'industries' },
-  { label: 'Projects', href: '/#projects', sectionId: 'projects' },
-  { label: 'Blog', href: '/blog', sectionId: 'blog' },
+  { label: 'Home', href: `${import.meta.env.BASE_URL}#home`, sectionId: 'home' },
+  { label: 'About', href: `${import.meta.env.BASE_URL}#about`, sectionId: 'about' },
+  { label: 'Solutions', href: `${import.meta.env.BASE_URL}#solutions`, sectionId: 'solutions' },
+  { label: 'Industries', href: `${import.meta.env.BASE_URL}#industries`, sectionId: 'industries' },
+  { label: 'Projects', href: `${import.meta.env.BASE_URL}#projects`, sectionId: 'projects' },
+  { label: 'Blog', href: `${import.meta.env.BASE_URL}blog`, sectionId: 'blog' },
 ] as const
 
 export const heroSection = {

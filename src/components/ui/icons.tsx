@@ -12,7 +12,7 @@ const strokeProps: SVGProps<SVGSVGElement> = {
 }
 
 export type StatIconName = 'abatement' | 'renewable' | 'capacity' | 'avoided'
-export type SectorIconName = 'automotive' | 'chemicals' | 'datacenter'
+export type SectorIconName = 'automotive' | 'chemicals' | 'datacenter' | 'manufacturing'
 
 export function StatIcon({ name }: { name: StatIconName }) {
   switch (name) {
@@ -80,6 +80,15 @@ export function SectorIcon({ name }: { name: SectorIconName }) {
           <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
           <path d="M6 6h.01" />
           <path d="M6 18h.01" />
+        </svg>
+      )
+    case 'manufacturing':
+      return (
+        <svg {...strokeProps}>
+          <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" />
+          <path d="M17 18h1" />
+          <path d="M12 18h1" />
+          <path d="M7 18h1" />
         </svg>
       )
   }
