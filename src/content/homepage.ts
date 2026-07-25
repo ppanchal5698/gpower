@@ -11,7 +11,7 @@ export const navItems = [
   { label: 'Solutions', href: `${import.meta.env.BASE_URL}#solutions`, sectionId: 'solutions' },
   { label: 'Industries', href: `${import.meta.env.BASE_URL}#industries`, sectionId: 'industries' },
   { label: 'Projects', href: `${import.meta.env.BASE_URL}#projects`, sectionId: 'projects' },
-  { label: 'Blog', href: `${import.meta.env.BASE_URL}blog`, sectionId: 'blog' },
+  { label: 'Blog', href: `${import.meta.env.BASE_URL}#blog`, sectionId: 'blog' },
 ] as const
 
 export const heroSection = {

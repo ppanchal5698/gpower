@@ -12,6 +12,7 @@ import { CaseStudies } from '../components/sections/CaseStudies'
 import { TestimonialsSection } from '../components/sections/TestimonialsSection'
 import { FAQSection } from '../components/sections/FAQSection'
 import { AssessmentSection } from '../components/sections/AssessmentSection'
+import { BlogSection } from '../components/sections/BlogSection'
 
 export function HomePage() {
   return (
@@ -28,6 +29,7 @@ export function HomePage() {
         <ImpactStats />
         <CaseStudies />
         <TestimonialsSection />
+        <BlogSection />
         <FAQSection />
         <AssessmentSection />
       </main>
