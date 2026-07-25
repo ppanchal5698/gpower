@@ -19,7 +19,7 @@ interface NormalizedStudy {
   sector: string
   icon: SectorIconName
   body: string
-  metrics: ReadonlyArray<{ value: string; label: string }>
+  metrics: readonly { value: string; label: string }[]
 }
 
 export function CaseStudyPage() {
@@ -45,7 +45,7 @@ export function CaseStudyPage() {
       study = {
         title: item.title,
         sector: item.sector,
-        icon: item.icon as SectorIconName,
+        icon: item.icon,
         body: item.result,
         metrics: [item.metric],
       }
@@ -56,7 +56,7 @@ export function CaseStudyPage() {
     return <Navigate to="/404" replace />
   }
 
-  const imageSrc = caseStudyImages[slug ?? ''] || caseStudyImages.featured
+  const imageSrc = caseStudyImages[slug ?? ''] ?? caseStudyImages.featured
 
   return (
     <>
