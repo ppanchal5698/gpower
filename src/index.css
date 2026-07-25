@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 100% 10%; /* Very dark navy text #01162b */
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 100% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 100% 10%;
+
+    --primary: 209 98% 16%; /* #012b53 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 209 98% 16%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 145 100% 39%; /* #00C853 */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 209 98% 16%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* For this project, we are enforcing a clean light corporate theme. 
+       If dark mode is triggered by OS, we map it back to a clean theme 
+       with slightly darker backgrounds, or we just keep it light for consistency.
+       Let's keep a true dark mode but strictly aligned to the brand. */
+    --background: 209 98% 12%; /* Deeper navy #011c38 */
+    --foreground: 210 40% 98%;
+
+    --card: 209 98% 16%; /* #012b53 */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 209 98% 16%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 145 100% 39%; /* Green becomes primary in dark mode for pop */
+    --primary-foreground: 209 98% 12%;
+
+    --secondary: 209 98% 20%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 209 98% 20%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 145 100% 39%;
+    --accent-foreground: 209 98% 12%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 209 98% 25%;
+    --input: 209 98% 25%;
+    --ring: 145 100% 39%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold tracking-tight;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-brand-gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-gpower-navy to-gpower-green;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
