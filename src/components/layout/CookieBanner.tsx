@@ -39,7 +39,7 @@ export function CookieBanner() {
           <div className="container mx-auto max-w-5xl pointer-events-auto">
             <div className="bg-gpower-navy text-white p-6 rounded-2xl shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6 border border-slate-700">
               <div className="flex-1 flex flex-col md:flex-row gap-4 md:gap-6 items-start">
-                <img src="/logo.svg" alt="" className="w-8 h-8 shrink-0 mt-1 opacity-90 brightness-0 invert hidden sm:block" aria-hidden="true" />
+                <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="w-8 h-8 shrink-0 mt-1 opacity-90 brightness-0 invert hidden sm:block" aria-hidden="true" />
                 <div>
                   <h3 className="text-lg font-bold mb-2">We value your privacy</h3>
                   <p className="text-sm text-slate-300 leading-relaxed">

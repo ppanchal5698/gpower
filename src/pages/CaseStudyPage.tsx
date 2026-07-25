@@ -8,10 +8,10 @@ import type { SectorIconName } from '../components/ui/icons'
 import { ArrowLeftIcon } from 'lucide-react'
 
 const caseStudyImages: Record<string, string> = {
-  'featured': '/casestudies.png',
-  'rooftop-solar-bess': '/solarsolutions.png',
-  'green-hydrogen-pilot': '/greenhydrogen.png',
-  'fuel-cell-backup': '/fuelcells.png',
+  'featured': `${import.meta.env.BASE_URL}casestudies.png`,
+  'rooftop-solar-bess': `${import.meta.env.BASE_URL}solarsolutions.png`,
+  'green-hydrogen-pilot': `${import.meta.env.BASE_URL}greenhydrogen.png`,
+  'fuel-cell-backup': `${import.meta.env.BASE_URL}fuelcells.png`,
 }
 
 interface NormalizedStudy {

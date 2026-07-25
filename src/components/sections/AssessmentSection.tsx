@@ -342,7 +342,7 @@ export function AssessmentSection() {
       <div className="absolute inset-0 bg-gpower-navy/90 z-0" aria-hidden="true" />
       {/* Decorative Brand Watermark */}
       <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] opacity-[0.02] pointer-events-none z-0 brightness-0 invert" aria-hidden="true">
-        <img src="/logo.svg" alt="" className="w-full h-full object-contain" />
+        <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="w-full h-full object-contain" />
       </div>
 
       <div className="container mx-auto px-6 xl:px-0 relative z-10 grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">

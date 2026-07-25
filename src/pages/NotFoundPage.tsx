@@ -8,7 +8,7 @@ export function NotFoundPage() {
       <Header />
       <main className="min-h-[80vh] flex items-center justify-center pt-[140px] pb-12">
         <div className="container mx-auto px-6 text-center flex flex-col items-center">
-          <img src="/logo.svg" alt="GPower Solutions" className="w-24 h-24 mb-8 opacity-80" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="GPower Solutions" className="w-24 h-24 mb-8 opacity-80" />
           <h1 className="text-9xl font-black text-gpower-green mb-4 font-heading">404</h1>
           <h2 className="text-3xl font-bold text-gpower-navy mb-6 font-heading">Page Not Found</h2>
           <p className="text-slate-600 mb-8 max-w-md mx-auto text-lg">

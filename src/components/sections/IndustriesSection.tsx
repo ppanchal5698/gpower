@@ -55,7 +55,7 @@ export function IndustriesSection() {
         >
           <div className="aspect-[4/3] lg:aspect-[4/5] overflow-hidden bg-slate-100 border border-slate-200">
             <img
-              src="/industries.png"
+              src={`${import.meta.env.BASE_URL}industries.png`}
               alt="Industrial complex at dusk"
               loading="lazy"
               className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"

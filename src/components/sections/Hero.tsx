@@ -12,7 +12,7 @@ export function Hero() {
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-slate-100 to-transparent skew-x-[-10deg] translate-x-10"></div>
         {/* Decorative Brand Watermark */}
         <div className="absolute top-1/4 -left-64 lg:-left-32 w-96 lg:w-[600px] h-96 lg:h-[600px] opacity-[0.03] pointer-events-none z-0">
-          <img src="/logo.svg" alt="" aria-hidden="true" className="w-full h-full object-contain" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" aria-hidden="true" className="w-full h-full object-contain" />
         </div>
       </div>
 
@@ -120,7 +120,7 @@ export function Hero() {
         >
           <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl shadow-slate-200">
             <img 
-              src="/home.png" 
+              src={`${import.meta.env.BASE_URL}home.png`} 
               alt="Industrial Solar Panels" 
               className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
             />

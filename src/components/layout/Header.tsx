@@ -82,12 +82,12 @@ export function Header() {
         <a href="#home" className="flex items-center gap-2 relative z-50" aria-label="GPower Solutions home">
           <img
             className="h-20 lg:h-[88px] hidden lg:block py-2"
-            src="/logo-landscape.svg"
+            src={`${import.meta.env.BASE_URL}logo-landscape.svg`}
             alt="GPower Solutions"
           />
           <img
             className="h-[72px] block lg:hidden object-contain"
-            src="/logo-landscape.svg"
+            src={`${import.meta.env.BASE_URL}logo-landscape.svg`}
             alt="GPower Solutions"
           />
         </a>

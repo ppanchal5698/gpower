@@ -6,10 +6,10 @@ import { CheckCircle2Icon } from 'lucide-react'
 
 // Override images with high quality unsplash links for the God Level UI
 const highQualityImages: Record<string, string> = {
-  'solar': '/solarsolutions.png',
-  'green-hydrogen': '/greenhydrogen.png',
-  'bess': '/batterystorage.png',
-  'fuel-cell': '/fuelcells.png'
+  'solar': `${import.meta.env.BASE_URL}solarsolutions.png`,
+  'green-hydrogen': `${import.meta.env.BASE_URL}greenhydrogen.png`,
+  'bess': `${import.meta.env.BASE_URL}batterystorage.png`,
+  'fuel-cell': `${import.meta.env.BASE_URL}fuelcells.png`
 };
 
 export function SolutionsSection() {

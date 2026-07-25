@@ -133,62 +133,62 @@ export const industriesData: Record<string, {
     description: 'Empowering heavy and discrete manufacturing with stable, low-cost green energy to offset volatile grid tariffs and meet stringent sustainability targets.',
     challenges: ['High peak-demand charges', 'Stringent Scope 2 emission goals', 'Power quality sensitivity'],
     solutions: ['Captive Solar + BESS', 'Energy Efficiency Audits', 'Open Access Renewables'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'chemicals-refining': {
     title: 'Chemicals & Refining',
     description: 'Decarbonizing highly energy-intensive chemical processes and transitioning critical feedstocks away from fossil fuels.',
     challenges: ['Reliance on grey hydrogen', 'Intense process heat requirements', 'Strict safety and compliance standards'],
     solutions: ['Green Hydrogen Electrolysis', 'Industrial Heat Electrification', 'Utility-Scale Solar PPAs'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'steel-metals': {
     title: 'Steel & Metals',
     description: 'Leading the transition to green steel through alternative reduction technologies and massive-scale renewable integration.',
     challenges: ['Massive carbon footprints', 'CBAM export penalties', 'High thermal energy demand'],
     solutions: ['Hydrogen DRI transition planning', 'Furnace electrification', 'Gigawatt-scale renewable procurement'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'cement-materials': {
     title: 'Cement & Materials',
     description: 'Tackling one of the hardest-to-abate sectors through alternative fuels, waste heat recovery, and clean power.',
     challenges: ['Process emissions from clinker', 'High continuous thermal demand', 'Logistical emission footprints'],
     solutions: ['Waste Heat Recovery Systems (WHRS)', 'Alternative fuel integration', 'Solar deployment at mining sites'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'food-beverage': {
     title: 'Food & Beverage',
     description: 'Ensuring absolute power reliability for cold chains while achieving net-zero targets demanded by global consumers.',
     challenges: ['24/7 refrigeration loads', 'Consumer pressure for green products', 'Waste management'],
     solutions: ['Rooftop Solar', 'Biogas from organic waste', 'Battery storage for cold-chain resilience'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'textiles': {
     title: 'Textiles',
     description: 'Greening the textile supply chain to comply with global brand mandates and reduce operational OPEX.',
     challenges: ['High water and thermal energy use', 'Margin pressures', 'Fast-fashion sustainability mandates'],
     solutions: ['Solar thermal for process heat', 'Rooftop photovoltaics', 'Energy efficiency retrofits'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'pharmaceuticals': {
     title: 'Pharmaceuticals',
     description: 'Delivering uninterruptible, clean power to critical R&D and manufacturing facilities.',
     challenges: ['Zero tolerance for power interruptions', 'Strict environmental controls (HVAC)', 'Corporate ESG goals'],
     solutions: ['Fuel Cell Backup Power', 'BESS for power quality', 'Renewable Energy Certificates (RECs)'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'data-centers': {
     title: 'Data Centers',
     description: 'Powering the AI and cloud revolution with 24/7 carbon-free energy solutions.',
     challenges: ['Massive, constant power draw', 'Cooling energy intensity', 'Need for 99.999% uptime'],
     solutions: ['24/7 Carbon-Free Energy (CFE) matching', 'Fuel Cell primary power', 'Advanced BESS integration'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   },
   'logistics-ports': {
     title: 'Logistics & Ports',
     description: 'Electrifying port operations and establishing green corridors for global trade.',
     challenges: ['Diesel reliance in heavy machinery', 'Large geographic footprints', 'Scope 3 emissions for clients'],
     solutions: ['EV fleet charging infrastructure', 'Port microgrids', 'On-site solar generation'],
-    image: '/industries.png'
+    image: `${import.meta.env.BASE_URL}industries.png`
   }
 };

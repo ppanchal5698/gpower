@@ -17,7 +17,7 @@ export function AboutPartner() {
           {/* Main Image Container */}
           <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3] lg:aspect-[4/5] bg-slate-100 border border-slate-200">
             <img
-              src="/about.png"
+              src={`${import.meta.env.BASE_URL}about.png`}
               alt="Solar panels at industrial facility"
               loading="lazy"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"

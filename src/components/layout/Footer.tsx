@@ -14,7 +14,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 lg:gap-12 pb-16 border-b border-white/10">
           <div className="lg:col-span-4 lg:pr-12">
             <a href="#home" className="inline-block mb-8">
-              <img src="/logo-landscape.svg" alt={`${brand.name} logo`} className="h-16 lg:h-20 opacity-90 brightness-0 invert" />
+              <img src={`${import.meta.env.BASE_URL}logo-landscape.svg`} alt={`${brand.name} logo`} className="h-16 lg:h-20 opacity-90 brightness-0 invert" />
             </a>
             <p className="text-base leading-relaxed text-slate-400 font-medium max-w-sm">{footerInfo.mission}</p>
             {socialLinks.length > 0 && (
