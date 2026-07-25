@@ -8,7 +8,7 @@ import { CookieBanner } from './components/layout/CookieBanner'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/solution/:slug" element={<SolutionPage />} />
