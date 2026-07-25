@@ -34,7 +34,7 @@ export function WhyGPower() {
           >
             <div className="aspect-[4/3] lg:aspect-[3/4] overflow-hidden bg-slate-100">
               <img
-                src={`${import.meta.env.BASE_URL}whygpower.png`}
+                src={`${import.meta.env.BASE_URL}whygpower.webp`}
                 alt="Industrial engineers planning decarbonization strategy"
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"

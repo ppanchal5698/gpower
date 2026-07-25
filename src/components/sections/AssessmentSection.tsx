@@ -337,7 +337,7 @@ export function AssessmentSection() {
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         aria-hidden="true"
-        style={{ backgroundImage: `url(/contactus.png)` }}
+        style={{ backgroundImage: `url(/contactus.webp)` }}
       />
       <div className="absolute inset-0 bg-gpower-navy/90 z-0" aria-hidden="true" />
       {/* Decorative Brand Watermark */}

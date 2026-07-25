@@ -21,7 +21,7 @@ export const heroSection = {
     'GPower Solutions designs practical clean-energy pathways around your operations, economics, and transition targets — then stays with you through implementation and optimisation.',
   primaryCta: { label: 'Start your free assessment', href: '#assessment' },
   secondaryCta: { label: 'Talk to an expert', href: '#assessment' },
-  image: `${import.meta.env.BASE_URL}home.png`,
+  image: `${import.meta.env.BASE_URL}home.webp`,
   signals: ['Technology-agnostic', 'Industrial-scale thinking', 'Lifecycle-led delivery'],
   brief: {
     label: 'Transition brief',
@@ -38,7 +38,7 @@ export const aboutSection = {
   id: 'about',
   eyebrow: 'About GPower Solutions',
   title: 'Your End-to-End Green Transition Partner',
-  image: `${import.meta.env.BASE_URL}about.png`,
+  image: `${import.meta.env.BASE_URL}about.webp`,
   paragraphs: [
     'The transition toward sustainable operations can be complex. Businesses face multiple technologies, changing regulations, investment decisions, and operational challenges.',
     'GPower Solutions simplifies this journey. We help organizations identify, evaluate, and implement practical sustainability solutions tailored to their operational requirements and business objectives.',
@@ -58,7 +58,7 @@ export const whySection = {
   title: 'A Clear, Four-Step Path to Your Green Transition',
   body:
     'We simplify the complexity of decarbonization into a structured journey — from understanding your operations to transforming them into a resilient, future-ready organization.',
-  image: `${import.meta.env.BASE_URL}whygpower.png`,
+  image: `${import.meta.env.BASE_URL}whygpower.webp`,
 } as const
 
 export const whySteps = [
@@ -98,28 +98,28 @@ export const solutions = [
     slug: 'solar',
     title: 'Solar Energy Solutions',
     body: 'Reduce electricity costs through rooftop solar, captive solar, and open-access renewable energy solutions.',
-    image: `${import.meta.env.BASE_URL}solarsolutions.png`,
+    image: `${import.meta.env.BASE_URL}solarsolutions.webp`,
     points: ['Rooftop & ground-mount', 'Captive & open access', 'PPA advisory'],
   },
   {
     slug: 'green-hydrogen',
     title: 'Green Hydrogen Solutions',
     body: 'Explore clean hydrogen opportunities for industrial decarbonization and future energy security.',
-    image: `${import.meta.env.BASE_URL}greenhydrogen.png`,
+    image: `${import.meta.env.BASE_URL}greenhydrogen.webp`,
     points: ['On-site electrolysis', 'Process feedstock', 'Energy security'],
   },
   {
     slug: 'bess',
     title: 'Battery Energy Storage (BESS)',
     body: 'Improve energy management, demand optimization, and renewable integration.',
-    image: `${import.meta.env.BASE_URL}batterystorage.png`,
+    image: `${import.meta.env.BASE_URL}batterystorage.webp`,
     points: ['Peak shaving', 'Load shifting', 'Grid balancing'],
   },
   {
     slug: 'fuel-cell',
     title: 'Fuel Cell Solutions',
     body: 'Reliable, clean, and efficient power generation for future industrial applications.',
-    image: `${import.meta.env.BASE_URL}fuelcells.png`,
+    image: `${import.meta.env.BASE_URL}fuelcells.webp`,
     points: ['Zero-emission backup', 'Continuous power', 'Silent operation'],
   },
 ] as const
@@ -137,7 +137,7 @@ export const industriesSection = {
   title: 'Decarbonization Tailored to Your Sector',
   body:
     'From heavy manufacturing to data centers, we design clean-energy pathways around the load profile, process heat, and sustainability targets of each sector.',
-  image: `${import.meta.env.BASE_URL}industries.png`,
+  image: `${import.meta.env.BASE_URL}industries.webp`,
   items: [
     'Manufacturing',
     'Chemicals & Refining',
@@ -169,7 +169,7 @@ export const projectsSection = {
   title: 'Proven Outcomes for Forward-Looking Industries',
   body:
     'Real deployments, measurable results. See how we help industries cut emissions and energy costs at the same time.',
-  image: `${import.meta.env.BASE_URL}casestudies.png`,
+  image: `${import.meta.env.BASE_URL}casestudies.webp`,
   featured: {
     slug: 'featured',
     tag: 'Featured Project',
@@ -216,7 +216,7 @@ export const assessmentSection = {
   title: 'Discover Your Green Transition Potential',
   body:
     'In less than two minutes, discover opportunities to reduce energy costs, lower carbon emissions, and accelerate your sustainability journey. Answer a few questions and receive a customized Green Transition Opportunity Assessment from GPower Solutions.',
-  image: `${import.meta.env.BASE_URL}contactus.png`,
+  image: `${import.meta.env.BASE_URL}contactus.webp`,
 } as const
 
 export const trustSignals = [

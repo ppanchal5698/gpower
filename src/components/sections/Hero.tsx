@@ -120,7 +120,7 @@ export function Hero() {
         >
           <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl shadow-slate-200">
             <img 
-              src={`${import.meta.env.BASE_URL}home.png`} 
+              src={`${import.meta.env.BASE_URL}home.webp`} 
               alt="Industrial Solar Panels" 
               className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
             />

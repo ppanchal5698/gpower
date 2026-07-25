@@ -39,7 +39,7 @@ export function CaseStudies() {
         >
           <div className="relative aspect-[4/3] lg:aspect-auto">
             <img
-              src={`${import.meta.env.BASE_URL}casestudies.png`}
+              src={`${import.meta.env.BASE_URL}casestudies.webp`}
               alt={projectsSection.featured.title}
               loading="lazy"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
