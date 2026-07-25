@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex items-center bg-white overflow-hidden pt-20">
+    <section id="home" className="relative min-h-[90vh] flex items-center bg-white overflow-hidden pt-20">
       {/* Background Subtle Elements */}
       <div className="absolute inset-0 z-0 bg-slate-50">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-slate-100 to-transparent skew-x-[-10deg] translate-x-10"></div>
